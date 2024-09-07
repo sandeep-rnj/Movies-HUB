@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Dashboard</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome to the Movie Dashboard</h1>
+        <input type="text" id="search-input" placeholder="Search for movies...">
+        <div id="movie-container"></div>
+        <button id="load-more">Load More</button>
+    </div>
+
+    <!-- Movie Details Page -->
+    <div id="movie-details" class="details-page">
+        <button id="back-to-home" class="back-button">Back to Home</button>
+        <div id="movie-details-container">
+            <h2 id="movie-title"></h2>
+            <img id="movie-poster" src="" alt="Movie Poster">
+            <div id="movie-overview" class="overview-section">
+                <img id="overview-poster" src="" alt="Overview Poster">
+                <div id="overview-content">
+                    <p id="movie-release-date"></p>
+                    <p id="movie-rating"></p>
+                    <p id="movie-genre"></p>
+                    <p id="movie-duration"></p>
+                    <p id="movie-director"></p>
+                    <p id="movie-producer"></p>
+                    <p id="movie-writer"></p>
+                </div>
+            </div>
+            <p id="movie-description"></p>
+            <h3>Cast</h3>
+            <ul id="movie-cast"></ul>
+            <h3>Trailer</h3>
+            <div id="movie-trailer"></div>
+            <a id="movie-website" href="" target="_blank">View on TMDb</a>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>

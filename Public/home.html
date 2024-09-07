@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Dashboard</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome to the Movie Dashboard</h1>
+        <input type="text" id="search-input" placeholder="Search for movies...">
+        <div id="movie-container"></div>
+        <button id="load-more">Load More</button>
+    </div>
+
+    <div id="g_id_onload"
+        data-client_id="YOUR_GOOGLE_CLIENT_ID"
+        data-login_uri="https://your.domain/your_login_endpoint"
+        data-auto_prompt="false">
+    </div>
+
+    <!-- Movie Details Page -->
+    <div id="movie-details" class="details-page">
+        <button id="back-to-home" class="back-button">Back to Home</button>
+        <div id="movie-details-container">
+            <h2 id="movie-title"></h2>
+            <img id="movie-poster" src="" alt="Movie Poster">
+            <p id="movie-release-date"></p>
+            <p id="movie-rating"></p>
+            <p id="movie-description"></p>
+            <h3>Cast</h3>
+            <ul id="movie-cast"></ul>
+            <h3>Trailer</h3>
+            <div id="movie-trailer"></div>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
