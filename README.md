@@ -79,7 +79,7 @@ If you wish to contribute to this project, please follow these steps:
 5- Create a new Pull Request.
 
 **License**
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License - see the LICENSE file for details.
 
 **Contact**
 For any questions or feedback, please contact me at Sandeepranj2303@gmail.com.
