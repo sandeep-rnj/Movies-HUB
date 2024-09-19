@@ -60,7 +60,9 @@ script.js: JavaScript file for application logic and interaction with the TMDb A
 
 
 
-**Contributing**
+**Contributing** :-
+
+
 If you wish to contribute to this project, please follow these steps:
 
 
@@ -78,10 +80,14 @@ If you wish to contribute to this project, please follow these steps:
 
 5- Create a new Pull Request.
 
-**License**
+**License** :-
+
+
 This project is licensed under the Apache License - see the LICENSE file for details.
 
-**Contact**
+**Contact** :-
+
+
 For any questions or feedback, please contact me at Sandeepranj2303@gmail.com.
 
 
